@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  font-size: 58px;
+  /* line-height: 80px; */
+  line-height: 113.15%;
+  letter-spacing: 0.2px;
+}
+h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  /* line-height: 57px; */
+  line-height: 142%;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  /* line-height: 32px; */
+  line-height: 133%;
+  letter-spacing: 0.1px;
+  color: #000;
+}
+h4{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 30px; */
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+h5{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* line-height: 24px; */
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  color: #C4C4C4;
+}
+h6{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 24px; */
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 20px; */
+  line-height: 143%;
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+link{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 24px; */
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+.btn-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* line-height: 28px; */
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+.mobile-menu{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* line-height: 28px; */
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+.list{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 30px; */
+  line-height: 150%;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.2px;
+  color: #C4C4C4;
+}
+.background{
+  position: static;
+  width: 100%;
+}
+.header{
+  background: url('/img/background.jpg') no-repeat center top / cover;
+}
+.container{
+  margin: 0 auto;
+  width: 1050px;
+  padding: 80px 0;
+}
