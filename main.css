@@ -73,7 +73,7 @@ p{
   letter-spacing: 0.2px;
   color: #C4C4C4;
 }
-link{
+li{
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -468,4 +468,198 @@ header{
 .input button:active{
   transition: 0.1s;
   opacity: 1.5;
+}
+.contact .header{
+  margin: 80px 0;
+  text-align: center;
+}
+.contact h2{
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.contact p{
+  text-align: center;
+  margin: 0 auto;
+}
+.contact .cards{
+  display: flex;
+  margin: 0 32.5px 148px 32.5px;
+  height: 350px;
+}
+.contact .cards > div{
+  width: 33.3%;
+  margin: 30px 0;
+  padding: 50px 0;
+  background: #fff;
+  text-align: center;
+}
+.contact .cards > div h6{
+  margin: 0;
+  padding: 0;
+  color: #252B42;
+}
+.contact .cards > div h5{
+  margin: 15px 0;
+  padding: 0;
+  color: #252B42;
+}
+.contact .cards .locations{
+  margin: 0;
+  padding: 80px 0;
+  color: #fff;
+  background: #252B42;
+}
+.contact .cards .locations h6{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.contact .cards .locations h5{
+  margin: 15px 0;
+  padding: 0;
+  color: #fff;
+}
+.contact button{
+  width: 50%;
+  padding: 0;
+  height: 44px;
+  background: none;
+  border-radius: 7px;
+  border: 2px solid #FF7B47;
+  color: #FF7B47;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.contact .cards .locations button{
+  border: 2px solid #fff;
+  color: #fff;
+}
+.contact button:hover{
+  opacity: 0.8;
+}
+.contact button:active{
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+.contact .cards svg{
+  margin-bottom: 15px;
+}
+
+footer .contact-us{
+  background: #fff;
+}
+footer .contacts{
+  position: relative;
+  display: flex;
+  height: 62px;
+  padding: 40px 0;
+}
+footer .contacts h3{
+  margin: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+footer .contacts p{
+  margin: 0;
+  padding: 0;
+}
+footer .contacts .text{
+  width: 50%;
+  text-align: left;
+}
+footer .contacts button{
+  position: absolute;
+  right: 2%;
+  width: 16%;
+  height: 58px;
+  color: #fff;
+  background: #FF7B47;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+footer .contacts button:hover{
+  opacity: 0.8;
+}
+footer .contacts button:active{
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+
+footer .map{
+  background: #17213C;
+}
+footer .map .container{
+  height: 170px;
+  padding: 50px 0;
+}
+footer .map .list{
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+}
+footer .map .list > div{
+  position: relative;
+  color: #fff;
+  width: 14.4%;
+  margin: 0;
+}
+footer .map h5{
+  margin: 0;
+  color: #fff;
+}
+footer .info > div,
+footer .legal > div,
+footer .features > div,
+footer .resourses > div{
+  position: absolute;
+  bottom: 0;
+}
+footer .map ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .map li{
+  color: #fff;
+  line-height: 27px;
+}
+footer .tought{
+  width: 31% !important;
+}
+footer .tought > div{
+  height: 108px;
+  margin: 18px 0;
+}
+footer .tought > div div{
+  display: flex;
+  margin: 4px 0;
+}
+footer .tought svg{
+  margin-right: 10px;
+}
+footer .tought h6{
+  margin: 0;
+  line-height: 200%;
+}
+
+footer .social{
+  background: #fff;
+}
+footer .social h6{
+  margin: 0;
+}
+footer .social .container{
+  position: relative;
+  display: flex;
+  padding: 25px 0;
+}
+footer .social .icons{
+  position: absolute;
+  right: 20px;
+}
+footer .social .icons svg{
+  margin-right: 20px;
 }
