@@ -350,9 +350,11 @@ header{
   margin: 0;
   margin-left: 11.4%
 }
-.about .media video{
-  width: 57%;
-  height: 100%;
+.about .media iframe{
+  /* width: 57%; */
+  width: 600px;
+  /* height: 100%; */
+  height: 442px;
 }
 .about .info .text{
   width: 100%;
@@ -384,4 +386,86 @@ header{
 .about h6{
   margin: 0;
   padding: 0;
+}
+
+.clients{
+  height: 340px;
+}
+.clients .container > div{
+  height: 50%;
+}
+.clients .logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.logo div{
+  margin: auto;
+}
+.padding{
+  padding: 20px 32px;
+}
+.subscribe{
+  background: #17213C;
+  height: 124px;
+  width: 100%;
+}
+.subscribe > div{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.subscribe .text{
+  width: 30%;
+}
+.subscribe .mail{
+  width: 50%;
+}
+.subscribe h3{
+  color: #fff;
+  margin: 0;
+}
+.input{
+  position: relative;
+  background: #fff;
+  height: 58px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.input input{
+  position: absolute;
+  top: 6px;
+  left: 2%;
+  padding: 0;
+  width: 70%;
+  height: 80%;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+  border: none;
+}
+.input button{
+  position: absolute;
+  right: 0;
+  width: 26%;
+  height: 100%;
+  background: #FF7B47;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.input button:hover{
+  opacity: 0.9;
+}
+.input button:active{
+  transition: 0.1s;
+  opacity: 1.5;
 }
