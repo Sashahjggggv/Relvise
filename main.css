@@ -118,6 +118,13 @@ li{
   width: 59px;
   height: 24px;
 }
+.menu a:hover{
+  opacity: 0.8;
+}
+.menu a:active{
+  transition: 0.1s;
+  opacity: 1.2;
+}
 header{
   background: url('../img/background.jpg') no-repeat center top / cover;
   background-size: 100% 86%;
@@ -490,7 +497,7 @@ header{
 .contact .cards > div{
   width: 33.3%;
   margin: 30px 0;
-  padding: 50px 0;
+  padding: 25px 0;
   background: #fff;
   text-align: center;
 }
@@ -506,7 +513,7 @@ header{
 }
 .contact .cards .locations{
   margin: 0;
-  padding: 80px 0;
+  padding: 55px 0;
   color: #fff;
   background: #252B42;
 }
@@ -662,4 +669,16 @@ footer .social .icons{
 }
 footer .social .icons svg{
   margin-right: 20px;
+  transition: 0.2s;
+}
+footer .social a{
+  text-decoration: none;
+  width: 24px;
+}
+footer .social svg:hover{
+  opacity: 0.8;
+}
+footer .contacts button:active{
+  transition: 0.1s;
+  transform: scale(0.9);
 }
