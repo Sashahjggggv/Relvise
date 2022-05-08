@@ -221,7 +221,7 @@ header{
 .card{
   display: flex;
   justify-content: space-between;
-  height: 242px;
+  height: 280px;
   margin: 80px 0 0 0;
 }
 .card h3{
@@ -233,19 +233,22 @@ header{
   margin: 0;
 }
 .card-1{
-  margin-right: 30px;
-  padding: 35px 40px;
+  width: 27.5%;
+  padding: 4% 3.5%;
+  margin-right: 3.5%;
   background: #fff;
   color: #0D5C63;
 }
 .card-2{
-  margin-right: 30px;
-  padding: 35px 40px;
+  width: 27.5%;
+  margin-right: 3.5%;
+  padding: 4% 3.5%;
   background: #fff;
   color: #0D5C63;
 }
 .card-3{
-  padding: 35px 40px;
+  width: 27.5%;
+  padding: 4% 3.5%;
   background: #0D5C63;
   color: #fff;
 }
