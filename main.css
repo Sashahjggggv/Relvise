@@ -126,8 +126,7 @@ li{
   opacity: 1.2;
 }
 header{
-  background: url('img/background.jpg') no-repeat center top / cover;
-  background-size: 100% 86%;
+  background: url('img/background.jpg') center top / cover no-repeat;
 }
 .container{
   display: block;
